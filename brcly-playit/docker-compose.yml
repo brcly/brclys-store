@@ -3,10 +3,10 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: brcly-playit_web_1
+      APP_HOST: brcly-playit_server_1
       APP_PORT: 8008
   
-  web:
+  server:
     image: wisdomsky/playit-docker-web:latest
     restart: on-failure
     network_mode: host
