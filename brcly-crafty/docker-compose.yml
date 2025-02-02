@@ -23,5 +23,5 @@ services:
       - ${APP_DATA_DIR}/data/app/config:/crafty/app/config
       - ${APP_DATA_DIR}/data/logs:/crafty/logs
       - ${APP_DATA_DIR}/data/import:/crafty/import
-      - ${UMBREL_ROOT}/home/external-data/crafty/backups:/crafty/backups
-      - ${UMBREL_ROOT}/home/external-data/crafty/servers:/crafty/servers
+      - ${APP_DATA_DIR}/data/backups:/crafty/backups
+      - ${APP_DATA_DIR}/data/servers:/crafty/servers
