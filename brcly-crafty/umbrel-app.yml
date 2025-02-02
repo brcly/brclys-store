@@ -21,5 +21,5 @@ gallery:
   - https://docs.craftycontrol.com/img/page-assets/user-guide/backup-manager/backup-manager-overview.png
 dependencies: []
 path: ""
-defaultUsername: "umbrel"
-defaultPassword: "umbrelcrafty"
+defaultUsername: ""
+defaultPassword: ""
