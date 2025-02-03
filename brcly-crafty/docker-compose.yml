@@ -19,3 +19,4 @@ services:
       - ${APP_DATA_DIR}/data/import:/crafty/import
       - ${APP_DATA_DIR}/data/backups:/crafty/backups
       - ${APP_DATA_DIR}/data/servers:/crafty/servers
+      - ${APP_DATA_DIR}/data/crafty:/home/crafty
