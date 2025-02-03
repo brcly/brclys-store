@@ -1,12 +1,6 @@
 version: '3.7'
 
 services:
-  # app_proxy:
-  #   environment:
-  #     APP_HOST: brcly-crafty_web_1
-  #     APP_PORT: 8443
-  #     PROXY_AUTH_ADD: "false"
-  
   server:
     container_name: brcly-crafty_server_1
     image: arcadiatechnology/crafty-4:4.4.7
@@ -15,7 +9,7 @@ services:
       - TZ=Etc/UTC
     ports:
       - "8500:8000" # HTTP
-      - "8543:8443"
+      - "8543:8443" # HTTPS
       - "8523:8123" # DYNMAP
       - "19132:19132/udp" # BEDROCK
       - "25500-25600:25500-25600" # MC SERV PORT RANGE
