@@ -4,7 +4,7 @@ name: Crafty
 tagline: Manage multiple Minecraft Server intances.
 icon: https://docs.craftycontrol.com/img/favicon.ico
 category: Gaming
-version: "4.4.7"
+version: "4.4.8"
 port: 8443
 description: >-
   Crafty Controller is a versatile all-in-one Open-Source Minecraft Server Manager. From Vanilla Bedrock to Modded Java, Crafty can manage it all!
